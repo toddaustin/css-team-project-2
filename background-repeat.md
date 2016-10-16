@@ -2,10 +2,7 @@
 
 *Defines how or if the image in the `background-image` property should be repeated*
 
-Write a description here. Provide an overview of what the reference entry is, how it's used, it's significance, or how it's commonly used.
 The `background-repeat` propery defines whether the image set in the `background-image` property of an element should be repeated. If the `background-image` is to be repeated, the `background-repeat` value will define whether the image is to be repeated along the x, y, or both x and y axis. By default, background-repeat is set to repeat on both vertically and horizontally (both the x and y axis).
-
-The 
 
 ## Syntax
 
