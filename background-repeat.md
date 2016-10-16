@@ -1,29 +1,41 @@
 #background-repeat
 
-*Defines how background images should be repeated*
+*Defines how the image in the `background-image` property should be repeated*
 
 Write a description here. Provide an overview of what the reference entry is, how it's used, it's significance, or how it's commonly used.
-The background-repeat propery defines whether the background image of an element should be repeated. If it is to be repeated, it will define whether it's repeated along the x, y, or both x and y axis. By default, background-repeat is set to repeat on both vertically and horizontally.
+The `background-repeat` propery defines whether the image set in the `background-image` property of an element should be repeated. If it is to be repeated, it will define whether it's repeated along the x, y, or both x and y axis. By default, background-repeat is set to repeat on both vertically and horizontally.
 
 ## Syntax
 
 Introduction to the syntax/usage. A example of CSS syntax is below:
 
 ```
-       background-repeat: repeat-x | repeat-y | [ repeat | space | round | no-repeat ];
+       background-repeat: repeat | repeat-x | repeat-y | no-repeat | initial | inherit;
 ```
 
 ### Values
 
-the background-repeat property can haThis is a CSS example, so each value would need it's own sub-section below.
+The `background-repeat` property allows for different values. These values are:
 
-#### Color
+#### repeat
 
-An explanation of the "color" value belongs here.
+`repeat` will cause the background image to be repeated both vertically and horizontally. This is the default behavior.
 
-#### url(path)
+#### no-repeat
 
-An explanation of using `url(path)` as a value to link to an image belongs here.
+`no-repeat` will prevent the background image from being repeated
+
+#### repeat-x
+
+`repeat-x` will cause the background image to only be repeated along the x-axis
+
+#### repeat-y
+
+`repeat-y` will cause the background image to only be repeated along the y-axis
+
+#### initial
+
+`initial` will set the property to it's default value, in this case back to `repeat`.
 
 ## Example 1
 
