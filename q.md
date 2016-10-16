@@ -9,8 +9,9 @@ The html element `<q>` is used for short inline quotations.
 Introduction to the syntax/usage. A example of CSS syntax is below:
 
 ```
-In Star Wars, Han Solo says <q cite="From the movie Star Wars: A New Hope">I've got a bad feeling about this.</q> before the walls of the trash compactor start to close in.
+<p>In Star Wars, Han Solo says <q cite="From the movie Star Wars: A New Hope">I've got a bad feeling about this.</q> before the walls of the trash compactor start to close in.</p>
 ```
+<p>In Star Wars, Han Solo says <q cite="From the movie Star Wars: A New Hope">I've got a bad feeling about this.</q> before the walls of the trash compactor start to close in.</p>
 
 ### Attributes
 
