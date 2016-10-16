@@ -3,8 +3,7 @@
 *Defines how background images should be repeated*
 
 Write a description here. Provide an overview of what the reference entry is, how it's used, it's significance, or how it's commonly used.
-The background-repeat propery defines whether the background image of an element should be repeated. If it is to be repeated, it will define whether it's repeated along the x, y, or both x and y axis. By default, background-repeat is set to repeat on both the x and y axis.
-
+The background-repeat propery defines whether the background image of an element should be repeated. If it is to be repeated, it will define whether it's repeated along the x, y, or both x and y axis. By default, background-repeat is set to repeat on both vertically and horizontally.
 
 ## Syntax
 
@@ -16,7 +15,7 @@ Introduction to the syntax/usage. A example of CSS syntax is below:
 
 ### Values
 
-This is a CSS example, so each value would need it's own sub-section below.
+the background-repeat property can haThis is a CSS example, so each value would need it's own sub-section below.
 
 #### Color
 
