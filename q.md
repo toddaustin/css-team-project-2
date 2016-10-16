@@ -3,9 +3,7 @@
 
 Write a description here. Provide an overview of what the reference entry is, how it's used, it's significance, or how it's commonly used.
 
-The html element `<q>` is used for short, inline quotations. When modern browsers encounter the `<q>` element, they will insert quotation marks around the content inbetween the `<q>` tags. For example:
-
-<q>This is an example of the &lt;q&gt; element</q>
+The html element `<q>` is used for short, inline quotations. When modern browsers encounter the `<q>` element, they will insert quotation marks around the content inbetween the `<q>` tags. For example: <q>This is an example of the &lt;q&gt; element</q>
 
 ## Syntax
 
