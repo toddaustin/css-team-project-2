@@ -40,6 +40,14 @@ The `background-repeat` property defaults to repeat, but allows for the followin
 
 `inherit` will set the property to the value set on its parent element.
 
+#### round
+
+`round` will set the property to the value set on its parent element.
+
+#### space
+
+`space` will cause the image to repeat as much as possible with out clipping, unless there is only room for one image to display. This also causes the `background-position` property to be ignored.
+
 ## Example 1
 
 The `background-repeat` property is only used in conjunction with the `background-image` property. Here the background will only repeat along the x-axis.
@@ -75,4 +83,3 @@ In most modern browsers, the `background-image` property can contain multiple ba
 
 Add information that you found that seemed lesser known. Common bugs, obscure bugs, important distinctions, all belong in this section.
 
-VIEW COMPILED
