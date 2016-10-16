@@ -14,8 +14,6 @@ The above will render in the browser as:
 
 ### Attributes
 
-This is a CSS example, so each value would need it's own sub-section below.
-
 The `<q>` element can have a `cite` attribute. The cite attribute is used to reference the url from which th equotation is sourced from. The cite attribute can be used by screen readers, but currently no normal browser displays or uses the `cite` attribute.
 
 ```html
