@@ -1,7 +1,7 @@
 # Team Project 2 - Encyclopedia Entries
 
 ## &lt;colgroup&gt; - Pari
-## &lt;q&gt; - Todd
+## [&lt;q&gt;](q.md) - Todd
 ## border-top-right-radius - Pari
 ## background-repeat - Todd
 ## unescape() - Pari
