@@ -1,6 +1,6 @@
 #background-repeat
 
-*Write a short "what it is" here. This can be a one-word definition.*
+*Defines how background images should be repeated*
 
 Write a description here. Provide an overview of what the reference entry is, how it's used, it's significance, or how it's commonly used.
 
