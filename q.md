@@ -5,7 +5,7 @@ The html element `<q>` is used for short, inline quotations. When modern browser
 
 ## Syntax
 
-The syntax of the `<q>` element is as follows. As it is an inline element, it can live inside other elements such as a `<p>` element or 
+The syntax of the `<q>` element is as follows. It must have a start and an end tag. As it is an inline element, it can live inside parent elements such as `<p>, <a>, and <div>`.
 ```
 <p>In Star Wars, Han Solo says <q>I've got a bad feeling about this</q> before the walls of the trash compactor start to close in.</p>
 ```
