@@ -3,6 +3,6 @@
 ## &lt;colgroup&gt; - Pari
 ## [&lt;q&gt;](q.md) - Todd
 ## border-top-right-radius - Pari
-## background-repeat - Todd
+## [background-repeat](background-repeate.md) - Todd
 ## unescape() - Pari
 ## escape() - Todd
