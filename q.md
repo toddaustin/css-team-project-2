@@ -14,7 +14,7 @@ The above will render in the browser as:
 
 ### Attributes
 
-The `<q>` element can contain the `cite` attribute. The cite attribute is used to reference the url from which the quotation is sourced from. The cite attribute can be used by screen readers, but currently no normal browser displays or uses the `cite` attribute.
+The `<q>` element can contain the `cite` attribute as well as the [global attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes). The cite attribute is used to reference the url from which the quotation is sourced from. The cite attribute can be used by screen readers, but currently no normal browser displays or uses the `cite` attribute.
 
 ```html
 <p>In Star Wars, Han Solo says <q cite="http://www.starwars.com">I've got a bad feeling about this</q> before the walls of the trash compactor start to close in.</p>
