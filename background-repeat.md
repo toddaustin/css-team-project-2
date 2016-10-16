@@ -42,11 +42,11 @@ The `background-repeat` property defaults to repeat, but allows for the followin
 
 #### round
 
-`round` will set the property to the value set on its parent element.
+`round` will cause the background image to stretch to fit the width of the element unless antother image will fit.
 
 #### space
 
-`space` will cause the image to repeat as much as possible with out clipping, unless there is only room for one image to display. This also causes the `background-position` property to be ignored.
+`space` will cause the image to repeat as much as possible with out clipping, unless there is only room for one image to display inside the elements width. The first and last images are added whitespace is then distributed evently between the images in between until a new image can be inserted. This also causes the `background-position` property to be ignored unless only one image is being displayed.
 
 ## Example 1
 
