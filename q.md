@@ -3,7 +3,7 @@
 
 The html element `<q>` is used for short, inline quotations. When modern browsers, other than Internet Explorer, encounter the `<q>` element, they will insert quotation marks around the content inbetween the `<q>` tags. For Internet Explorer you as the developer would have to add CSS styles to the element. For example, in modern browsers, the following should show quotes: <q>This is an example of the &lt;q&gt; element</q>. 
 
-For long quotations, quotes that require line breaks, or quotes that are not set inline, use the `<blockquote>` element instead.
+For long, extended quotations, quotes that require line breaks, or quotes that are not set inline, use the `<blockquote>` element instead.
 
 ## Syntax
 
@@ -24,4 +24,4 @@ The `<q>` element can contain the `cite` attribute as well as the [global attrib
 
 ## Special Notes
 
-For larger quotes use `<blockquote>`.
+For extended quotations use `<blockquote>`.
