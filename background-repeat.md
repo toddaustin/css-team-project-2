@@ -17,7 +17,7 @@ The syntax for the `background-repeat` property:
 
 ### Values
 
-The `background-repeat` property allows for several values to be set. These values are:
+The `background-repeat` property defaults to repeat, but allows for the following values:
 
 #### repeat
 
@@ -45,29 +45,33 @@ The `background-repeat` property allows for several values to be set. These valu
 
 ## Example 1
 
-The `background-repeat` property is only used in conjunction with the `background-image` property
+The `background-repeat` property is only used in conjunction with the `background-image` property. Here the background will only repeat along the x-axis.
 
 ```
        body{
-        background-image: url("texture.jpg");
-        background: repeat-x;
-        }
+           background-image: url("texture.jpg");
+           background: repeat-x;
+       }
 ```
 
 ## Example 2
 
-Write a introduction to the example, sufficient to explain what the example is showing.
+The `background-repeat` property can also be used in the shorthand property for `background`. Here the `background-repeat` property is being set to `no-repeat` in the `background` shorthand property.
 
 ```
-        background: url('path_to_image.png');
+       body {
+           background: url("texture.jpg") no-repeat;
+       }
 ```
 
 ## Example 3 - Complex
 
-Write a introduction to the example, sufficient to explain what the example is showing.
+In most modern browsers, the `background-image` property can contain multiple background images. Here the `background-repeat` property is set to `no-repeat` for the first image and `repeat-x` for the second image.
 
 ```
-        background: none 50% 25% auto contain fixed;
+        body {
+            background-image: url("logo.jpg"), url("texture.jpg");
+            background-repeat: no-repeat, repeat-x;
 ```
 
 ## Special Notes
