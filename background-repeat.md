@@ -3,11 +3,13 @@
 *Defines how the image in the `background-image` property should be repeated*
 
 Write a description here. Provide an overview of what the reference entry is, how it's used, it's significance, or how it's commonly used.
-The `background-repeat` propery defines whether the image set in the `background-image` property of an element should be repeated. If it is to be repeated, it will define whether it's repeated along the x, y, or both x and y axis. By default, background-repeat is set to repeat on both vertically and horizontally.
+The `background-repeat` propery defines whether the image set in the `background-image` property of an element should be repeated. If the `background-image` is to be repeated, the `background-repeat` value will define whether the image is to be repeated along the x, y, or both x and y axis. By default, background-repeat is set to repeat on both vertically and horizontally (both the x and y axis).
+
+The 
 
 ## Syntax
 
-Introduction to the syntax/usage. A example of CSS syntax is below:
+The syntax for the `background-repeat` property:
 
 ```
        background-repeat: repeat | repeat-x | repeat-y | no-repeat | initial | inherit;
@@ -15,7 +17,7 @@ Introduction to the syntax/usage. A example of CSS syntax is below:
 
 ### Values
 
-The `background-repeat` property allows for different values. These values are:
+The `background-repeat` property allows for several values to be set. These values are:
 
 #### repeat
 
@@ -37,12 +39,19 @@ The `background-repeat` property allows for different values. These values are:
 
 `initial` will set the property to it's default value, in this case back to `repeat`.
 
+#### inherit
+
+`inherit` will set the property to the value set on its parent element.
+
 ## Example 1
 
-Write a introduction to the example, sufficient to explain what the example is showing.
+The `background-repeat` property is only used in conjunction with the `background-image` property
 
 ```
-        background: green;
+       body{
+        background-image: url("texture.jpg");
+        background: repeat-x;
+        }
 ```
 
 ## Example 2
