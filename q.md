@@ -2,7 +2,8 @@
 *the &lt;q&gt; tag represents the HTML quote element.*
 
 Write a description here. Provide an overview of what the reference entry is, how it's used, it's significance, or how it's commonly used.
-The html element `<q>` is used for short inline quotations.
+
+The html element `<q>` is used for short inline quotations. When modern browsers encounter the `<q>` element, they will insert quotation marks around the content inbetween the `<q>` tags.
 
 ## Syntax
 
@@ -17,10 +18,10 @@ Introduction to the syntax/usage. A example of CSS syntax is below:
 
 This is a CSS example, so each value would need it's own sub-section below.
 
-The `<q>` element can have a `cite` attribute. The cite attribute can be used by screen readers, but currently no normal browser displays or uses the `cite` attribute.
+The `<q>` element can have a `cite` attribute. The cite attribute is used to reference the url from which th equotation is sourced from. The cite attribute can be used by screen readers, but currently no normal browser displays or uses the `cite` attribute.
 
 ```html
-<p>In Star Wars, Han Solo says <q cite="From the movie Star Wars: A New Hope">I've got a bad feeling about this</q> before the walls of the trash compactor start to close in.</p>
+<p>In Star Wars, Han Solo says <q cite="http://www.starwars.com">I've got a bad feeling about this</q> before the walls of the trash compactor start to close in.</p>
 ```
 
 ## Example 1
