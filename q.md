@@ -1,4 +1,4 @@
-#<q>
+#*&lt;q&gt;
 *the <q> tag represents the HYML quote element.*
 
 Write a description here. Provide an overview of what the reference entry is, how it's used, it's significance, or how it's commonly used.
