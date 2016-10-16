@@ -1,7 +1,9 @@
 #&lt;q&gt;
 *the &lt;q&gt; tag represents the HTML quote element.*
 
-The html element `<q>` is used for short, inline quotations. When modern browsers, other than Internet Explorer, encounter the `<q>` element, they will insert quotation marks around the content inbetween the `<q>` tags. For Internet Explorer you as the developer would have to add CSS styles to the element. For example, in modern browsers, the following should show quotes: <q>This is an example of the &lt;q&gt; element</q>. For long quotations or quotes that require line breaks and not set inline, use the `<blockquote>` element instead.
+The html element `<q>` is used for short, inline quotations. When modern browsers, other than Internet Explorer, encounter the `<q>` element, they will insert quotation marks around the content inbetween the `<q>` tags. For Internet Explorer you as the developer would have to add CSS styles to the element. For example, in modern browsers, the following should show quotes: <q>This is an example of the &lt;q&gt; element</q>. 
+
+For long quotations, quotes that require line breaks, or quotes that are not set inline, use the `<blockquote>` element instead.
 
 ## Syntax
 
