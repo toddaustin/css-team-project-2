@@ -3,23 +3,26 @@
 
 Write a description here. Provide an overview of what the reference entry is, how it's used, it's significance, or how it's commonly used.
 
-The encodeURI() function returns a string where certain special characters are encoded into their respective Uniform Resource Identifier (URI).
+The encodeURI() function returns a string where certain special characters are encoded into their respective Uniform Resource Identifier (URI). URI can be from one to four escape sequences which represnet the UTF-8 encoding of the character.
+
+To use 
 
 ## Syntax
 
 Introduction to the syntax/usage. A example of CSS syntax is below:
 
 ```
-        background: <color | url(path) | others.. | none>;
+     encodeURI(URI)
 ```
 
-### Values
+### Parameters
 
-This is a CSS example, so each value would need it's own sub-section below.
+encodeURI accepts only one parameter in the form of a URI.
 
-#### Color
+#### URI
 
-An explanation of the "color" value belongs here.
+According to Wikipedia  
+> a Uniform Resource Identifier (URI) is a string of characters used to identify a resource. Such identification enables interaction with representations of the resource over a network, typically the World Wide Web, using specific protocols.
 
 #### url(path)
 
