@@ -6,7 +6,7 @@ Write a description here. Provide an overview of what the reference entry is, ho
 The encodeURI() function encodes a string where special characters are encoded into their respective Uniform Resource Identifier (URI). URI can be from one to four escape sequences which represent the [UTF-8](http://www.fileformat.info/info/charset/UTF-8/list.htm) encoding of the character. encodeURI() is used when you want to create a working URL when the URL includes special characters other than the following eleven characters: 
 `#  $  &  +  /  :  ; ,  =  ?  @`
 ```javascript 
-encodeURI("This has spaces^among others>"); // will output "This%20has%20spaces%5Eamong%20others%3E"
+encodeURI("This has spaces^among other characters>"); // will output "This%20has%20spaces%5Eamong%20other%3Ccharacters%3E"
 ```
 To use 
 
@@ -20,16 +20,12 @@ Introduction to the syntax/usage. A example of CSS syntax is below:
 
 ### Parameters
 
-encodeURI accepts only one parameter in the form of a URI.
+encodeURI accepts only one parameter in the form of a string, it assumes this string is a complete URI which contains character that need to be encoded.
 
 #### URI
 
 According to Wikipedia  
 > a Uniform Resource Identifier (URI) is a string of characters used to identify a resource. Such identification enables interaction with representations of the resource over a network, typically the World Wide Web, using specific protocols.
-
-#### url(path)
-
-An explanation of using `url(path)` as a value to link to an image belongs here.
 
 ## Example 1
 
