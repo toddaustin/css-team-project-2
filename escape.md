@@ -3,7 +3,8 @@
 
 Write a description here. Provide an overview of what the reference entry is, how it's used, it's significance, or how it's commonly used.
 
-The encodeURI() function returns a string where certain special characters are encoded into their respective Uniform Resource Identifier (URI). URI can be from one to four escape sequences which represnet the UTF-8 encoding of the character.
+The encodeURI() function returns a string where certain special characters are encoded into their respective Uniform Resource Identifier (URI). URI can be from one to four escape sequences which represnet the UTF-8 encoding of the character. encodeURI() is used when you want to create a working URL when the URL includes special characters other than the following eleven characters: 
+`#  $  &  +  /  :  ; ,  =  ?  @`
 
 To use 
 
