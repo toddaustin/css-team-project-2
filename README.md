@@ -5,4 +5,4 @@
 ## border-top-right-radius - Pari
 ## [background-repeat](background-repeat.md) - Todd
 ## unescape() - Pari
-## escape() - Todd
+## [escape()](escape.md) - Todd
