@@ -70,6 +70,7 @@ The `background-repeat` property is only used in conjunction with the `backgroun
            background: repeat-x;
        }
 ```
+![repeat](images/bg-repeat-ex1.jpg)
 
 ## Example 2
 
@@ -80,6 +81,7 @@ The `background-repeat` property can also be used in the shorthand property for 
            background: url("texture.jpg") no-repeat;
        }
 ```
+![repeat](images/bg-repeat-ex2.jpg)
 
 ## Example 3 - Complex
 
