@@ -89,7 +89,7 @@ In most modern browsers, the `background-image` property can contain multiple ba
 
 ```
         body {
-            background-image: url("logo.jpg"), url("texture.jpg");
+            background-image: url("texture.jpg"), url("bg-repeat.jpg");
             background-repeat: no-repeat, repeat-x;
 ```
 ![repeat](images/multiple-bg.jpg)
