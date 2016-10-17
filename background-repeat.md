@@ -96,5 +96,5 @@ In most modern browsers, the `background-image` property can contain multiple ba
 
 ## Special Notes
 
-Add information that you found that seemed lesser known. Common bugs, obscure bugs, important distinctions, all belong in this section.
+Multiple background images and multiple background repeats only work in Internet Explorer 9 or later.
 
