@@ -20,36 +20,43 @@ The `background-repeat` property defaults to repeat, but allows for the followin
 
 `repeat` will cause the background image to be repeated both vertically and horizontally. This is the default behavior.
 
-![repeat]()
+![repeat](images/repeat.jpg)
 
 #### no-repeat
 
 `no-repeat` will prevent the background image from being repeated
+![repeat](images/no-repeat.jpg)
 
 #### repeat-x
 
 `repeat-x` will cause the background image to only be repeated along the x-axis
+![repeat](images/repeat-x.jpg)
 
 #### repeat-y
 
 `repeat-y` will cause the background image to only be repeated along the y-axis
+![repeat](images/repeat-y.jpg)
 
 #### initial
 
 `initial` will set the property to it's default value, in this case back to `repeat`.
+![repeat](images/initial.jpg)
 
 #### inherit
 
 `inherit` will set the property to the value set on its parent element.
+![repeat](images/inherit.jpg)
 
 #### round
 
 `round` will cause the background image to stretch to fit the width of the element unless antother image will fit.
+![repeat](images/round.jpg)
 
 #### space
 
 `space` will cause the image to repeat as much as possible with out clipping, unless there is only room for one image to display inside the elements width. Images are added with whitespace evenly divided between the images until a new instance of the background image can be inserted. This also causes the `background-position` property to be ignored unless only one image is being displayed.
-Example of `space`:
+
+![repeat](images/space.jpg)
 
 
 
