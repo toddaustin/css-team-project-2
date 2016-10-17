@@ -5,8 +5,10 @@ Write a description here. Provide an overview of what the reference entry is, ho
 
 The encodeURI() function encodes a string where special characters are encoded into their respective Uniform Resource Identifier (URI). URI can be from one to four escape sequences which represent the [UTF-8](http://www.fileformat.info/info/charset/UTF-8/list.htm) encoding of the character. encodeURI() is used when you want to create a working URL when the URL includes special characters other than the following eleven characters: 
 `#  $  &  +  /  :  ; ,  =  ?  @`
+
+Usage:
 ```javascript 
-encodeURI("This has spaces^among other characters>"); // will output "This%20has%20spaces%5Eamong%20other%3Ccharacters%3E"
+encodeURI("This has spaces^among other characters>"); // will output: This%20has%20spaces%5Eamong%20other%3Ccharacters%3E
 ```
 To use 
 
@@ -15,7 +17,7 @@ To use
 Introduction to the syntax/usage. A example of CSS syntax is below:
 
 ```
-     encodeURI(URI)
+     encodeURI(URI);
 ```
 
 ### Parameters
@@ -31,8 +33,12 @@ According to Wikipedia
 
 Write a introduction to the example, sufficient to explain what the example is showing.
 
-```
-        background: green;
+
+```javascript 
+var my page = encodeURI("some page name with spaces in the name"); // will output "some%20page%20name%20with%20spaces%20in%20the%20name"
+var myURL = "http://www.example.com/" + myPage + "/index.html";
+console.log(myURL); // outputs: http://www.example.com/some%20page%20name%20with%20spaces%20in%20the%20name/index.html
+
 ```
 
 ## Example 2
