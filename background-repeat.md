@@ -20,6 +20,8 @@ The `background-repeat` property defaults to repeat, but allows for the followin
 
 `repeat` will cause the background image to be repeated both vertically and horizontally. This is the default behavior.
 
+![repeat]()
+
 #### no-repeat
 
 `no-repeat` will prevent the background image from being repeated
@@ -46,7 +48,10 @@ The `background-repeat` property defaults to repeat, but allows for the followin
 
 #### space
 
-`space` will cause the image to repeat as much as possible with out clipping, unless there is only room for one image to display inside the elements width. The first and last images are added whitespace is then distributed evently between the images in between until a new image can be inserted. This also causes the `background-position` property to be ignored unless only one image is being displayed.
+`space` will cause the image to repeat as much as possible with out clipping, unless there is only room for one image to display inside the elements width. Images are added with whitespace evenly divided between the images until a new instance of the background image can be inserted. This also causes the `background-position` property to be ignored unless only one image is being displayed.
+Example of `space`:
+
+
 
 ## Example 1
 
