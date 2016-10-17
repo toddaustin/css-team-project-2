@@ -1,9 +1,10 @@
-#escape()
+#encodeURI()
 
-*Write a short "what it is" here. This can be a one-word definition.*
+*Used to encode URI instances in a string *
 
 Write a description here. Provide an overview of what the reference entry is, how it's used, it's significance, or how it's commonly used.
 
+The encodeURI() function returns a string where certain special characters are encoded into their respective Uniform Resource Identifier (URI).
 
 ## Syntax
 
