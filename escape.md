@@ -9,7 +9,7 @@ The encodeURI() function encodes a string where special characters are encoded i
 
 Usage:
 ```javascript 
-encodeURI("This has spaces^among other characters>"); // will output: This%20has%20spaces%5Eamong%20other%3Ccharacters%3E
+     encodeURI("This has spaces^among other characters>"); // will output: This%20has%20spaces%5Eamong%20other%3Ccharacters%3E
 ```
 To use 
 
@@ -37,8 +37,8 @@ Usually a URI is a string that you want to add to a URL but it contains special 
 Here we are using encodeURI() to encode a a string which includes spaces and a `^`. encodeURI() will replace the spaces with `%20` and replace the caret symbol (^) with `%5E`.
 
 ```javascript 
-var str = encodeURI("a string with spacesand a ^");
- console.log(str); // output = a%20string%20with%20spacesand%20a%20%5E
+     var str = encodeURI("a string with spacesand a ^");
+     console.log(str); // output = a%20string%20with%20spacesand%20a%20%5E
 ```
 
 ## Example 2 - Complex
@@ -46,9 +46,9 @@ var str = encodeURI("a string with spacesand a ^");
 Here we are using encodeURI() to encode a directory name which includes spaces. encodeURI() will replace these spaces with `%20` which is the UTF-8 code for a space.
 
 ```javascript 
-var myDir = encodeURI("some directory with spaces in the name"); //output "some%20directory%20with%20spaces%20in%20the%20name"
-var myURL = "http://www.example.com/" + myDir + "/index.html";
-console.log(myURL); // outputs: http://www.example.com/some%20directory%20with%20spaces%20in%20the%20name/index.html
+     var myDir = encodeURI("some directory with spaces in the name"); //output "some%20directory%20with%20spaces%20in%20the%20name"
+     var myURL = "http://www.example.com/" + myDir + "/index.html";
+     console.log(myURL); // outputs: http://www.example.com/some%20directory%20with%20spaces%20in%20the%20name/index.html
 ```
 
 ## Special Notes
