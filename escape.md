@@ -7,6 +7,9 @@ The escapeI() function encodes a string where special characters are encoded. es
 
 When escape() is used on a string, certain characters are replaced using their [hexidecimal](https://en.wikipedia.org/wiki/Hexadecimal) (or hex as it is often called) equivalent, and prefixed with a `%`. For example the hexidecimal equivalent in html for a space is `%20` and for the greater than symbol (>) the hexidecimal equivalent is `%3E`. 
 
+```javascript 
+     escape("This has spaces^among other characters>"); // will output: This%20has%20spaces%5Eamong%20other%20characters%3E
+```
 **Common hexidecimal equivalents:**  
 
 Symbol | Hex
@@ -21,10 +24,7 @@ space | %20
 # | %23
 
 
-Usage:
-```javascript 
-     escape("This has spaces^among other characters>"); // will output: This%20has%20spaces%5Eamong%20other%20characters%3E
-```
+
 
 ## Syntax
 
