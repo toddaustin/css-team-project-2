@@ -29,17 +29,16 @@ encodeURI() accepts only one parameter in the form of a string, it assumes this 
 According to Wikipedia  
 > a Uniform Resource Identifier (URI) is a string of characters used to identify a resource. Such identification enables interaction with representations of the resource over a network, typically the World Wide Web, using specific protocols.  
 
-Usually a URI is a string that you want to add to a URL but it contains special characters that need encodeing in order to be used by the browser.
+Usually a URI is a string that you want to add to a URL but it contains special characters that need encoding in order to be used by the browser.
 
 ## Example 1
 
-Write a introduction to the example, sufficient to explain what the example is showing.
-
+Here we are using encodeURI() to encode a directory name which includes spaces. encodeURI() will replace these spaces with `%20` which is the UTF-8 code for a space.
 
 ```javascript 
-var my page = encodeURI("some page name with spaces in the name"); // will output "some%20page%20name%20with%20spaces%20in%20the%20name"
-var myURL = "http://www.example.com/" + myPage + "/index.html";
-console.log(myURL); // outputs: http://www.example.com/some%20page%20name%20with%20spaces%20in%20the%20name/index.html
+var myDir = encodeURI("some directory with spaces in the name"); //output "some%20directory%20with%20spaces%20in%20the%20name"
+var myURL = "http://www.example.com/" + myDir + "/index.html";
+console.log(myURL); // outputs: http://www.example.com/some%20directory%20with%20spaces%20in%20the%20name/index.html
 
 ```
 
