@@ -11,8 +11,13 @@ When escape() is used on a string, certain characters are replaced using their [
 
 Symbol | Hex
 ------------ | -------------
-Content from cell 1 | Content from cell 2
-Content in the first column | Content in the second column
+space | %20
+> | %3E
+< | %3C
+= | #3D
+% | %25
+) | %28
+( | %29
 
 
 Usage:
