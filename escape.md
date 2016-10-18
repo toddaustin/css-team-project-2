@@ -5,7 +5,14 @@
 The escapeI() function encodes a string where special characters are encoded. escape() is used to create a working URL when the URL includes special characters other than alphanumeric characters and the following punctuation:  
 `@ * _ . -  /`
 
-When escape() is used on a string, certain characters are replaced using their [hexidecimal](https://en.wikipedia.org/wiki/Hexadecimal) equivalent, and prefixed with a `%`. For example the hexidecimal equivalent in html for a space is `%20` and for the caret (^) the hexidecimal equivalent is `%3E`. To view more hexidecima
+When escape() is used on a string, certain characters are replaced using their [hexidecimal](https://en.wikipedia.org/wiki/Hexadecimal) (or hex as it is often called) equivalent, and prefixed with a `%`. For example the hexidecimal equivalent in html for a space is `%20` and for the greater than symbol (>) the hexidecimal equivalent is `%3E`. 
+
+**Common hexidecimal equivalents:**  
+
+Symbol | Hex
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
 
 
 Usage:
