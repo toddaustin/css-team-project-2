@@ -11,7 +11,6 @@ Usage:
 ```javascript 
      encodeURI("This has spaces^among other characters>"); // will output: This%20has%20spaces%5Eamong%20other%3Ccharacters%3E
 ```
-To use 
 
 ## Syntax
 
