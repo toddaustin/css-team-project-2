@@ -53,6 +53,6 @@ console.log(myURL); // outputs: http://www.example.com/some%20directory%20with%2
 
 ## Special Notes
 
-encodeURI() replaces the deprecated escape(). 
+encodeURI() replaces the deprecated escape(). Use decodeURI() or decodeURIComponent() to decode previously encode strings. To encode all characters except alphanumeric and _ . ! ~ * ' ( ), use encodeURIComponent(). 
 
 
