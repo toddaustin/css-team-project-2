@@ -40,7 +40,7 @@ var str = encodeURI("a string with spacesand a ^");
  console.log(str); // output = a%20string%20with%20spacesand%20a%20%5E
 ```
 
-## Example 3 - Complex
+## Example 2 - Complex
 
 Here we are using encodeURI() to encode a directory name which includes spaces. encodeURI() will replace these spaces with `%20` which is the UTF-8 code for a space.
 
