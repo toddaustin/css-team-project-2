@@ -14,7 +14,7 @@ To use
 
 ## Syntax
 
-Introduction to the syntax/usage. A example of CSS syntax is below:
+The syntax for encodeURI() is as follows
 
 ```
      encodeURI(URI);
@@ -22,12 +22,13 @@ Introduction to the syntax/usage. A example of CSS syntax is below:
 
 ### Parameters
 
-encodeURI accepts only one parameter in the form of a string, it assumes this string is a complete URI which contains character that need to be encoded.
+encodeURI() accepts only one parameter in the form of a string, it assumes this string is a complete URI which contains character that need to be encoded.
 
 #### URI
 
 According to Wikipedia  
 > a Uniform Resource Identifier (URI) is a string of characters used to identify a resource. Such identification enables interaction with representations of the resource over a network, typically the World Wide Web, using specific protocols.
+Usually a URI is a string that you want to add to a URL but it contains special characters that need encodeing in order to be used by the browser.
 
 ## Example 1
 
