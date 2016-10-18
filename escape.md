@@ -1,7 +1,6 @@
 #encodeURI()
-*escape() is deprecated. Use encodeURI() instead. Used to encode URI instances in a string*
+*Used to encode URI instances in a string, replaces escape(), which has been deprecated*
 
-Write a description here. Provide an overview of what the reference entry is, how it's used, it's significance, or how it's commonly used.
 
 The encodeURI() function encodes a string where special characters are encoded into their respective Uniform Resource Identifier (URI). URI can be from one to four escape sequences which represent the [UTF-8](http://www.fileformat.info/info/charset/UTF-8/list.htm) encoding of the character. encodeURI() is used when you want to create a working URL when the URL includes special characters other than the following: 
 `alphanumeric characters  - _ . ! ~ * ' ( ) #  $  &  +  /  :  ; ,  =  ?  @`
