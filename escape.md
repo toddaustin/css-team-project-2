@@ -1,9 +1,8 @@
-#encodeURI()
-*Used to encode URI instances in a string, replaces escape(), which has been deprecated*
+#escape()
+*Used to encode a string*
 
 
-The encodeURI() function encodes a string where special characters are encoded into their respective Uniform Resource Identifier (URI). URI can be from one to four escape sequences which represent the [UTF-8](http://www.fileformat.info/info/charset/UTF-8/list.htm) encoding of the character. encodeURI() is used when you want to create a working URL when the URL includes special characters other than the following: 
-`alphanumeric characters  - _ . ! ~ * ' ( ) #  $  &  +  /  :  ; ,  =  ?  @`
+The escapeI() function encodes a string where special characters are encoded. escape() is used to create a working URL when the URL includes special characters other than alphanumeric characters and the following punctuation: `@ * _ . -  /`
 
 
 Usage:
@@ -13,15 +12,16 @@ Usage:
 
 ## Syntax
 
-The syntax for encodeURI() is as follows
+The syntax for escape() is as follows
 
 ```
-     encodeURI(URI);
+     escape(string);
 ```
+escape() returns a string where some characters are replaced
 
 ### Parameters
 
-encodeURI() accepts only one parameter in the form of a string, it assumes this string is a complete URI which contains character that need to be encoded.
+escape() accepts only one parameter in the form of a string that needs to be encoded.
 
 #### URI
 
