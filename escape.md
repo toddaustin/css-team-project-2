@@ -66,6 +66,6 @@ Here we are using escape() to encode a directory name which includes spaces. esc
 
 ## Special Notes
 
-To decode a string that has been encoded by escape() you would use unescape(), however, escape() has been derprecated as of JavaScript 1.3, you should use encodeURI(). Use decodeURI() or decodeURIComponent() to decode previously encode strings. To encode all characters except alphanumeric and _ . ! ~ * ' ( ), use encodeURIComponent(). 
+To decode a string that has been encoded by escape() you would use unescape(), however, escape() has been derprecated as of JavaScript 1.3, you should use encodeURI(). To encode all characters except alphanumeric and _ . ! ~ * ' ( ), use encodeURIComponent(). Use decodeURI() or decodeURIComponent() to decode previously encode strings. 
 
 
