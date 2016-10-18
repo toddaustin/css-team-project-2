@@ -33,6 +33,7 @@ The syntax for escape() is as follows
 ```javascript
      escape(string);
 ```
+## Returns
 escape() returns a string where some characters are replaced with the hexidecimal equivalent character code.
 
 ### Parameters
