@@ -37,7 +37,7 @@ div {
   border: 1px solid black;
 }
 ```
-![repeat](images/semicircle.jpg)
+![repeat](images/semic.jpg)
 
 * three value radius that shows symetrical shapes:
 ```
