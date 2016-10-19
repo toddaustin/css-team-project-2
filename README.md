@@ -4,5 +4,5 @@
 ## [&lt;q&gt;](q.md) - Todd
 ## [border-top-right-radius](border-top-right-radius.md) - Pari
 ## [background-repeat](background-repeat.md) - Todd
-## unescape() - Pari
+## [unescape()](unescape.md) - Pari
 ## [escape()](escape.md) - Todd
