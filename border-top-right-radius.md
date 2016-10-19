@@ -49,6 +49,7 @@ div {
   border: 1px solid black;
 }
 ```
+![repeat](images/threevalue.jpg)
 
 * Elliptical
 ```
@@ -61,3 +62,4 @@ div {
 }
 
 ```
+![repeat](images/ellip.jpg)
