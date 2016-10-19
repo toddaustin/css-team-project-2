@@ -1,6 +1,6 @@
 #&lt;colgroup&gt;
 
-* &lt;colgroup&gt; is used for formatting one or more columns within a table.
+* &lt;colgroup&gt; is used for formatting one or more columns within a table.*
 
 Just like we use `<thead>`, `<tbody>`, `<tfooter>` to group header, body and footers respectively, we could group columns using the html `<colgroup>` tag.
 
